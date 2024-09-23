@@ -17,6 +17,7 @@ namespace String_Reversal.Controllers
             return View();
         }
 
+        // Call ReverseString method and send the output to Result.cshtml
         [HttpPost]
         public IActionResult Index(GetString model)
         {

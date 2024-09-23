@@ -1,6 +1,8 @@
 ﻿@model GetString
 
+@* Display before and after*@
 <p>Orignal String: @Model.Input</p>
 <p>Reversed String: @Model.Output</p>
 
+@* Ask the user if they want to restart*@
 <a href="@Url.Action("Index", "Home")">Continue?</a>

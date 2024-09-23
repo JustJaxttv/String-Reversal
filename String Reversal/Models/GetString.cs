@@ -2,9 +2,11 @@
 {
     public class GetString
     {
+        // Create Input and Output strings
         public string Input { get; set; }
         public string Output { get; set; }
 
+        // Create ReverseString method for reversing user input
         public void ReverseString()
         {
             if (!string.IsNullOrEmpty(Input)) 
